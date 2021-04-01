@@ -7,17 +7,67 @@
   - #1D3557; rgb(29, 53, 87);
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
 #content {
   width: 100vw;
   height: 100vh;
+  background-color: #F1FAEE;
 }
 
-.main-image {
-  width: 400px;
-  height: auto;
+header {
+  background-color: #A8DADC;
 }
 
-.main-image img {
+.main-images {
+  width: 450px;
+  height: 400px;
+  position: relative;
+  margin: 60px 300px 40px 100px;
+}
+
+.restaurant-photo {
   width: inherit;
   height: inherit;
+  position: absolute;
+  z-index: 10;
+  object-fit: cover;
+  top: 80px;
+  left: 100px;
+  border: 10px solid #A8DADC;
+  border-radius: 30px;
+}
+
+.blob {
+  position: absolute;
+  width: 600px;
+  height: auto;
+  z-index: 1;
+  top: 40px;
+  left: 60px;
+}
+
+.main-text {
+  width: 500px;
+  color: #1D3557;
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+  position: relative;
+  padding-top: 200px;
+  /* overflow-wrap: break-word */
+}
+
+.main-text span {
+  color:#A8DADC
+}
+
+.main-text h6 {
+  color: #457B9D;
 }
