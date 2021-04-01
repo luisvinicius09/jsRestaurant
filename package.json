@@ -1,7 +1,7 @@
 {
   "name": "jsRestaurant",
   "version": "1.0.0",
-  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "description": "This is the homepage for a restaurant.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
