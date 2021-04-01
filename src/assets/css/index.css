@@ -1,0 +1,23 @@
+/*
+  Color pallete: 
+  - #E63946; rgb(230, 57, 70);
+  - #F1FAEE; rgb(241, 250, 238);
+  - #A8DADC; rgb(168, 218, 220);
+  - #457B9D; rgb(69, 123, 157);
+  - #1D3557; rgb(29, 53, 87);
+*/
+
+#content {
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-image {
+  width: 400px;
+  height: auto;
+}
+
+.main-image img {
+  width: inherit;
+  height: inherit;
+}
