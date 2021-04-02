@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](luisvinicius09.github.io/jsRestaurant/)
+[Live Demo Link](https://luisvinicius09.github.io/jsRestaurant/)
 
 
 ## Getting Started
