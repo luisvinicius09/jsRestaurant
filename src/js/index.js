@@ -23,14 +23,14 @@ homeBtn.addEventListener('click', () => {
   wrapper.classList.remove('d-none');
   menuWrapper.classList.add('d-none');
   contactWrapper.classList.add('d-none');
-})
+});
 
 const menuBtn = document.querySelector('.menuBtn')
 menuBtn.addEventListener('click', () => {
   menuWrapper.classList.remove('d-none');
   wrapper.classList.add('d-none');
   contactWrapper.classList.add('d-none');
-})
+});
 
 
 const contactBtn = document.querySelector('.contactBtn')
@@ -38,4 +38,4 @@ contactBtn.addEventListener('click', () => {
   contactWrapper.classList.remove('d-none')
   wrapper.classList.add('d-none');
   menuWrapper.classList.add('d-none');
-})
+});
