@@ -19,8 +19,8 @@ const header = () => {
   contactBtn.href = '#';
   contactBtn.innerText = 'Contact';
 
-  const buttons = [homeBtn, menuBtn, contactBtn]
-  for(let i = 0; i < buttons.length; i += 1) {
+  const buttons = [homeBtn, menuBtn, contactBtn];
+  for (let i = 0; i < buttons.length; i += 1) {
     headerContainer.appendChild(buttons[i]);
   }
   header.appendChild(headerContainer);
