@@ -10,10 +10,23 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Lobster', cursive;
 }
 
 .d-flex {
   display: flex;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
 }
 
 #content {
@@ -24,13 +37,31 @@
 
 header {
   background-color: #A8DADC;
+  height: 80px;
+  font-size: 23px;
+}
+
+header div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header a {
+  color: #1D3557;
+  text-decoration: none;
+  margin: 25px 60px 40px 40px;
+}
+
+header a:hover {
+  text-decoration: underline;
+  color: #E63946;
 }
 
 .main-images {
   width: 450px;
   height: 400px;
   position: relative;
-  margin: 60px 300px 40px 100px;
+  margin: 60px 300px 40px 0;
 }
 
 .restaurant-photo {
@@ -57,7 +88,6 @@ header {
 .main-text {
   width: 500px;
   color: #1D3557;
-  font-family: 'Lobster', cursive;
   font-size: 35px;
   position: relative;
   padding-top: 200px;
