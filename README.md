@@ -47,6 +47,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Run tests
 
+- `No tests available`
 
 ## Authors
 
