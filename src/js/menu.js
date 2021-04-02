@@ -3,7 +3,7 @@ const menu = () => {
   const mainContainer = document.querySelector('.main-container');
 
   const menuWrapper = document.createElement('div');
-  menuWrapper.classList.add('menuWrapper', 'd-flex', 'd-none');
+  menuWrapper.classList.add('menuWrapper', 'd-flex', 'j-btw', 'd-none');
 
   const menuContent = document.createElement('div');
   menuContent.classList.add('menuContent');
@@ -11,10 +11,10 @@ const menu = () => {
   const menuTitle = document.createElement('div');
   menuTitle.classList.add('menuTitle');
 
-  const h2 = document.createElement('h2');
-  h2.innerText = 'Menu';
+  const h1 = document.createElement('h1');
+  h1.innerText = 'Menu';
 
-  menuTitle.appendChild(h2);
+  menuTitle.appendChild(h1);
   menuContent.appendChild(menuTitle);
 
   const menuItems = document.createElement('div');
@@ -42,7 +42,7 @@ const menu = () => {
     spanTwo.appendChild(valueStrong);
     itemWrapper.appendChild(spanTwo);
 
-    return itemWrapper
+    return itemWrapper;
   }
 
   const itemOne = item('OPTION 0', 'Testing', '$40');
@@ -56,12 +56,27 @@ const menu = () => {
   }
 
   const menuImages = document.createElement('div');
-  menuItems.classList.add('menuImages');
+  menuImages.classList.add('menuImages');
+
+  const imageOne = document.createElement('img');
+  imageOne.classList.add('menu-photo');
+  imageOne.src = '../src/assets/images/menu.jpg';
+  imageOne.alt = 'Restaurant photo';
+
+  const imageTwo = document.createElement('img');
+  imageTwo.classList.add('blobMenu');
+  imageTwo.src = '../src/assets/images/blob2.png';
+  imageTwo.alt = 'Main image background';
+
+  const images = [imageOne, imageTwo];
+  for(let i=0; i < images.length; i++) {
+    menuImages.appendChild(images[i]);
+  }
 
 
   menuContent.appendChild(menuItems);
-  menuWrapper.appendChild(menuImages);
   menuWrapper.appendChild(menuContent);
+  menuWrapper.appendChild(menuImages);
   mainContainer.appendChild(menuWrapper);
 }
 
