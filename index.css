@@ -1,0 +1,213 @@
+/*
+  Color pallete: 
+  - #E63946; rgb(230, 57, 70);
+  - #F1FAEE; rgb(241, 250, 238);
+  - #A8DADC; rgb(168, 218, 220);
+  - #457B9D; rgb(69, 123, 157);
+  - #1D3557; rgb(29, 53, 87);
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lobster', cursive;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.j-btw {
+  justify-content: space-between;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+#content {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F1FAEE;
+}
+
+header {
+  background-color: #A8DADC;
+  height: 80px;
+  font-size: 23px;
+}
+
+header div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header a {
+  color: #1D3557;
+  text-decoration: none;
+  margin: 25px 60px 40px 40px;
+}
+
+header a:hover {
+  text-decoration: underline;
+  color: #E63946;
+}
+
+.main-images {
+  width: 450px;
+  height: 400px;
+  position: relative;
+  margin: 60px 300px 40px 0;
+}
+
+.restaurant-photo {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  z-index: 10;
+  object-fit: cover;
+  top: 80px;
+  left: 100px;
+  border: 10px solid #A8DADC;
+  border-radius: 30px;
+}
+
+.blob {
+  position: absolute;
+  width: 600px;
+  height: auto;
+  z-index: 1;
+  top: 40px;
+  left: 60px;
+}
+
+.main-text {
+  width: 500px;
+  color: #1D3557;
+  font-size: 35px;
+  position: relative;
+  padding-top: 200px;
+  /* overflow-wrap: break-word */
+}
+
+.main-text span {
+  color:#A8DADC;
+}
+
+.main-text h6 {
+  color: #457B9D;
+}
+
+/* Menu page */
+.menuContent {
+  border: 8px solid #457B9D;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 60px 60px 60px 150px;
+  width: 500px;
+}
+
+.menuTitle {
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itemValue {
+  margin-left: 20px;
+  position: relative;
+  top: 20px;
+}
+
+.menuImages {
+  width: 450px;
+  height: 400px;
+  position: relative;
+  margin-right: 250px;
+}
+
+.menu-photo {
+  width: inherit;
+  height: 500px;
+  position: absolute;
+  z-index: 10;
+  object-fit: cover;
+  top: 80px;
+  left: 100px;
+  border: 10px solid #A8DADC;
+  border-radius: 30px;
+}
+
+.blobMenu {
+  position: absolute;
+  width: 500px;
+  height: auto;
+  z-index: 1;
+  top: 40px;
+  left: 60px;
+}
+
+
+/* Contact */
+.contactWrapper {
+  max-width: 1500px;
+  margin: auto;
+}
+
+.contactContent {
+  border: 1px solid #457B9D;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 60px 60px 60px 150px;
+}
+
+.contactTitle {
+  text-align: center;
+}
+
+.contactForm {
+  flex-direction: column;
+}
+
+.contactForm input {
+  width: 300px;
+  height: 30px;
+  margin: 10px;
+  padding: 5px;
+  font-size: larger;
+}
+
+.contactForm textarea {
+  min-width: 300px;
+  max-width: 300px;
+  margin: 10px;
+  min-height: 150px;
+  padding: 5px;
+  font-size: large;
+}
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  left: 43%;
+}
+
+.footer a {
+  color: #457B9D;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #E63946;
+}
