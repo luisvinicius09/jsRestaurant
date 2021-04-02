@@ -6,14 +6,12 @@
 
 ![screenshot](./screenshot.png)
 
-Additional description about the project and its features.
-
 ## Built With
 
 - HTML
-- BOOTSTRAP
-- JAVASCRIPT
-- WEBPACK
+- CSS
+- JavaScript
+- Webpack
 
 ## Live Demo
 
@@ -29,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- [Node]() installed.
+- [Node](https://nodejs.org/en/) installed.
 - Code editor.
 - Browser.
 
