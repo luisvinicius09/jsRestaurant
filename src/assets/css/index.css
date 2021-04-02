@@ -196,3 +196,18 @@ header a:hover {
   padding: 5px;
   font-size: large;
 }
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  left: 43%;
+}
+
+.footer a {
+  color: #457B9D;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #E63946;
+}
