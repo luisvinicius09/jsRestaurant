@@ -4,7 +4,7 @@
 
 > This simple application is a homepage for a restaurant.
 
-![screenshot](./creenshot.png)
+![screenshot](./screenshot.png)
 
 Additional description about the project and its features.
 
