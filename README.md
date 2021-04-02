@@ -1,65 +1,66 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Restaurant JS
 
-> One paragraph statement about the project.
+> This simple application is a homepage for a restaurant, that includes a menu and contact page.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](./screenshot.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScript
+- Webpack
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://luisvinicius09.github.io/jsRestaurant/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**This is an example on setting up your project locally.**
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- [Node](https://nodejs.org/en/) installed.
+- Code editor.
+- Browser.
+
 ### Setup
+
+- Download or clone the repository, and open the `index.html` on your browser.
 
 ### Install
 
+- Run `npm install`, to install necessary dependencies.
+
 ### Usage
+
+- If you want to make modifications, you can compile the files using the webpack:
+
+- `npm build`
 
 ### Run tests
 
-### Deployment
-
-
+- `No tests available`
 
 ## Authors
 
-👤 **Author1**
+👤 **Luis Vinicius**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@luisvinicius09](https://github.com/luisvinicius09)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/luis-vinicius/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/luisvinicius09/jsRestaurant/issues).
 
 ## Show your support
 
@@ -71,6 +72,6 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
-## 📝 License
+## 📝 Copyright
 
-This project is [MIT](./MIT.md) licensed.
+Copyright © 2021. [Luis Vinicius M. S.](https://www.linkedin.com/in/luis-vinicius/)

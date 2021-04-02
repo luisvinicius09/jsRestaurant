@@ -1,0 +1,30 @@
+{
+  "name": "jsRestaurant",
+  "version": "1.0.0",
+  "description": "This is the homepage for a restaurant.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "npx webpack --watch",
+    "server": "npx webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisvinicius09/jsRestaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisvinicius09/jsRestaurant/issues"
+  },
+  "homepage": "https://github.com/luisvinicius09/jsRestaurant#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^5.29.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
