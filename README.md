@@ -2,7 +2,7 @@
 
 # Restaurant JS
 
-> This simple application is a homepage for a restaurant.
+> This simple application is a homepage for a restaurant, that includes a menu and contact page.
 
 ![screenshot](./screenshot.png)
 
