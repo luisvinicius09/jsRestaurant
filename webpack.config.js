@@ -8,7 +8,7 @@ module.exports = {
   },
   devServer: {
     open: true,
-    openPage: '/dist'
+    openPage: '/dist',
   },
   mode: 'development',
 };
