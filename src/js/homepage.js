@@ -17,7 +17,7 @@ const home = () => {
   imageTwo.src = '../src/assets/images/blob.png';
   imageTwo.alt = 'Main image background';
 
-  const images = [imageOne, imageTwo]
+  const images = [imageOne, imageTwo];
   for(let i=0; i < images.length; i++) {
     mainImages.appendChild(images[i]);
   }

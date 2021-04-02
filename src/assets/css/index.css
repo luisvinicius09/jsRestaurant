@@ -21,6 +21,10 @@
   justify-content: center;
 }
 
+.j-btw {
+  justify-content: space-between;
+}
+
 .d-block {
   display: block;
 }
@@ -104,11 +108,12 @@ header a:hover {
 
 /* Menu page */
 
+
 .menuContent {
   border: 8px solid #457B9D;
   border-radius: 10px;
   padding: 20px;
-  margin: 30px;
+  margin: 60px 60px 60px 150px;
   width: 500px;
 }
 
@@ -118,10 +123,39 @@ header a:hover {
 
 .item {
   display: flex;
+  justify-content: space-between;
 }
 
 .itemValue {
   margin-left: 20px;
   position: relative;
   top: 20px;
+}
+
+.menuImages {
+  width: 450px;
+  height: 400px;
+  position: relative;
+  margin-right: 250px;
+}
+
+.menu-photo {
+  width: inherit;
+  height: 500px;
+  position: absolute;
+  z-index: 10;
+  object-fit: cover;
+  top: 80px;
+  left: 100px;
+  border: 10px solid #A8DADC;
+  border-radius: 30px;
+}
+
+.blobMenu {
+  position: absolute;
+  width: 500px;
+  height: auto;
+  z-index: 1;
+  top: 40px;
+  left: 60px;
 }
