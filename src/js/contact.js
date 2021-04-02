@@ -3,7 +3,7 @@ const contact = () => {
   const mainContainer = document.querySelector('.main-container');
 
   const contactWrapper = document.createElement('div');
-  contactWrapper.classList.add('contactWrapper', 'd-flex','j-btw' , 'd-none');
+  contactWrapper.classList.add('contactWrapper', 'd-flex', 'j-btw', 'd-none');
 
   const contactContent = document.createElement('div');
   contactContent.classList.add('contactContent');
@@ -22,14 +22,14 @@ const contact = () => {
 
   const name = document.createElement('input');
   name.placeholder = 'Name';
-  name.disabled = true
-  name.type = 'text'
+  name.disabled = true;
+  name.type = 'text';
   contactForm.appendChild(name);
 
   const email = document.createElement('input');
   email.placeholder = 'Email';
   email.disabled = true;
-  email.type = 'email'
+  email.type = 'email';
   contactForm.appendChild(email);
 
   const message = document.createElement('textarea');
@@ -51,16 +51,15 @@ const contact = () => {
   imageTwo.alt = 'Main image background';
 
   const images = [imageOne, imageTwo];
-  for(let i=0; i < images.length; i++) {
+  for (let i = 0; i < images.length; i += 1) {
     menuImages.appendChild(images[i]);
   }
-
 
   contactContent.appendChild(contactForm);
   contactWrapper.appendChild(contactContent);
   contactWrapper.appendChild(menuImages);
 
   mainContainer.appendChild(contactWrapper);
-}
+};
 
 export default contact;

@@ -1,5 +1,5 @@
 const home = () => {
-  const mainContainer = document.querySelector('.main-container')
+  const mainContainer = document.querySelector('.main-container');
 
   const wrapper = document.createElement('div');
   wrapper.classList.add('wrapper', 'd-flex', 'j-center');
@@ -18,7 +18,7 @@ const home = () => {
   imageTwo.alt = 'Main image background';
 
   const images = [imageOne, imageTwo];
-  for(let i=0; i < images.length; i++) {
+  for (let i = 0; i < images.length; i += 1) {
     mainImages.appendChild(images[i]);
   }
 
@@ -29,7 +29,7 @@ const home = () => {
 
   const title = document.createElement('h1');
   title.innerHTML = 'Restaurant <span>JS</span>';
-  mainText.appendChild(title)
+  mainText.appendChild(title);
 
   const subTitle = document.createElement('h6');
   subTitle.innerText = 'We have been serving to our valuable guests for more than a decade. We make sure our guests are fully satisfied with our services & the variety of cuisines to select from our menu.';
@@ -38,7 +38,6 @@ const home = () => {
   wrapper.appendChild(mainText);
 
   mainContainer.appendChild(wrapper);
-}
+};
 
-export default home; 
-
+export default home;

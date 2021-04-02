@@ -43,7 +43,7 @@ const menu = () => {
     itemWrapper.appendChild(spanTwo);
 
     return itemWrapper;
-  }
+  };
 
   const itemOne = item('OPTION 0', 'Testing', '$40');
   const itemTwo = item('OPTION 1', 'Lorem ipsun is working well', '$60');
@@ -51,8 +51,8 @@ const menu = () => {
   // Insert "items" you want to be displayed on the menu
   const items = [itemOne, itemTwo];
 
-  for(let i=0; i < items.length; i += 1) {
-    menuItems.appendChild(items[i])
+  for (let i = 0; i < items.length; i += 1) {
+    menuItems.appendChild(items[i]);
   }
 
   const menuImages = document.createElement('div');
@@ -69,7 +69,7 @@ const menu = () => {
   imageTwo.alt = 'Main image background';
 
   const images = [imageOne, imageTwo];
-  for(let i=0; i < images.length; i++) {
+  for (let i = 0; i < images.length; i += 1) {
     menuImages.appendChild(images[i]);
   }
 
@@ -78,6 +78,6 @@ const menu = () => {
   menuWrapper.appendChild(menuContent);
   menuWrapper.appendChild(menuImages);
   mainContainer.appendChild(menuWrapper);
-}
+};
 
 export default menu;
