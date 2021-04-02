@@ -1,10 +1,10 @@
 /*
   Color pallete: 
-  - #E63946; rgb(230, 57, 70);
-  - #F1FAEE; rgb(241, 250, 238);
-  - #A8DADC; rgb(168, 218, 220);
-  - #457B9D; rgb(69, 123, 157);
-  - #1D3557; rgb(29, 53, 87);
+  - #e63946; rgb(230, 57, 70);
+  - #f1faee; rgb(241, 250, 238);
+  - #a8dadc; rgb(168, 218, 220);
+  - #457b9d; rgb(69, 123, 157);
+  - #1d3557; rgb(29, 53, 87);
 */
 
 * {
@@ -36,11 +36,11 @@
 #content {
   width: 100vw;
   height: 100vh;
-  background-color: #F1FAEE;
+  background-color: #f1faee;
 }
 
 header {
-  background-color: #A8DADC;
+  background-color: #a8dadc;
   height: 80px;
   font-size: 23px;
 }
@@ -51,14 +51,14 @@ header div {
 }
 
 header a {
-  color: #1D3557;
+  color: #457b9d;
   text-decoration: none;
   margin: 25px 60px 40px 40px;
 }
 
 header a:hover {
   text-decoration: underline;
-  color: #E63946;
+  color: #e63946;
 }
 
 .main-images {
@@ -76,7 +76,7 @@ header a:hover {
   object-fit: cover;
   top: 80px;
   left: 100px;
-  border: 10px solid #A8DADC;
+  border: 10px solid #a8dadc;
   border-radius: 30px;
 }
 
@@ -99,16 +99,16 @@ header a:hover {
 }
 
 .main-text span {
-  color:#A8DADC;
+  color:#a8dadc;
 }
 
 .main-text h6 {
-  color: #457B9D;
+  color: #457b9d;
 }
 
 /* Menu page */
 .menuContent {
-  border: 8px solid #457B9D;
+  border: 8px solid #457b9d;
   border-radius: 10px;
   padding: 20px;
   margin: 60px 60px 60px 150px;
@@ -145,7 +145,7 @@ header a:hover {
   object-fit: cover;
   top: 80px;
   left: 100px;
-  border: 10px solid #A8DADC;
+  border: 10px solid #a8dadc;
   border-radius: 30px;
 }
 
@@ -166,7 +166,7 @@ header a:hover {
 }
 
 .contactContent {
-  border: 1px solid #457B9D;
+  border: 1px solid #457b9d;
   border-radius: 5px;
   padding: 20px;
   margin: 60px 60px 60px 150px;
@@ -204,10 +204,10 @@ header a:hover {
 }
 
 .footer a {
-  color: #457B9D;
+  color: #457b9d;
   text-decoration: none;
 }
 
 .footer a:hover {
-  color: #E63946;
+  color: #e63946;
 }
