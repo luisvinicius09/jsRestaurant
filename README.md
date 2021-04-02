@@ -4,7 +4,7 @@
 
 > This simple application is a homepage for a restaurant.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./creenshot.png)
 
 Additional description about the project and its features.
 
@@ -55,7 +55,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Author1**
 
 - GitHub: [@luisvinicius09](https://github.com/luisvinicius09)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/luis-vinicius/)
 
 ## 🤝 Contributing
 
@@ -73,6 +73,6 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
-## 📝 License
+## 📝 Copyright
 
-This project is [MIT](./MIT.md) licensed.
+Copyright © 2021. [Luis Vinicius M. S.](https://www.linkedin.com/in/luis-vinicius/)
