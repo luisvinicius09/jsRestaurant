@@ -95,9 +95,33 @@ header a:hover {
 }
 
 .main-text span {
-  color:#A8DADC
+  color:#A8DADC;
 }
 
 .main-text h6 {
   color: #457B9D;
+}
+
+/* Menu page */
+
+.menuContent {
+  border: 8px solid #457B9D;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px;
+  width: 500px;
+}
+
+.menuTitle {
+  text-align: center;
+}
+
+.item {
+  display: flex;
+}
+
+.itemValue {
+  margin-left: 20px;
+  position: relative;
+  top: 20px;
 }
