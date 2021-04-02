@@ -3,57 +3,39 @@ const contact = () => {
   const mainContainer = document.querySelector('.main-container');
 
   const contactWrapper = document.createElement('div');
-  contactWrapper.classList.add('contactWrapper', 'd-flex', 'd-none');
+  contactWrapper.classList.add('contactWrapper', 'd-flex','j-btw' , 'd-none');
 
-  const menuContent = document.createElement('div');
-  menuContent.classList.add('menuContent');
+  const contactContent = document.createElement('div');
+  contactContent.classList.add('contactContent');
 
-  const menuTitle = document.createElement('div');
-  menuTitle.classList.add('menuTitle');
+  const contactTitle = document.createElement('div');
+  contactTitle.classList.add('contactTitle');
 
   const h1 = document.createElement('h1');
   h1.innerText = 'Contact';
 
-  menuTitle.appendChild(h1);
-  menuContent.appendChild(menuTitle);
+  contactTitle.appendChild(h1);
+  contactContent.appendChild(contactTitle);
 
-  const menuItems = document.createElement('div');
-  menuItems.classList.add('menuItems');
+  const contactForm = document.createElement('div');
+  contactForm.classList.add('contactForm', 'd-flex');
 
-  const item = (name, desc, value) => {
-    const itemWrapper = document.createElement('div');
-    itemWrapper.classList.add('item');
+  const name = document.createElement('input');
+  name.placeholder = 'Name';
+  name.disabled = true
+  name.type = 'text'
+  contactForm.appendChild(name);
 
-    const spanOne = document.createElement('span');
-    const h3 = document.createElement('h3');
-    h3.innerText = name;
-    const p = document.createElement('p');
-    p.innerText = desc;
+  const email = document.createElement('input');
+  email.placeholder = 'Email';
+  email.disabled = true;
+  email.type = 'email'
+  contactForm.appendChild(email);
 
-    spanOne.appendChild(h3);
-    spanOne.appendChild(p);
-    itemWrapper.appendChild(spanOne);
-
-    const spanTwo = document.createElement('span');
-    const valueStrong = document.createElement('strong');
-    valueStrong.classList.add('itemValue');
-    valueStrong.innerText = value;
-
-    spanTwo.appendChild(valueStrong);
-    itemWrapper.appendChild(spanTwo);
-
-    return itemWrapper;
-  }
-
-  const itemOne = item('OPTION 0', 'Testing', '$40');
-  const itemTwo = item('OPTION 1', 'Lorem ipsun is working well', '$60');
-
-  // Insert "items" you want to be displayed on the menu
-  const items = [itemOne, itemTwo];
-
-  for(let i=0; i < items.length; i += 1) {
-    menuItems.appendChild(items[i])
-  }
+  const message = document.createElement('textarea');
+  message.placeholder = 'Message';
+  message.disabled = true;
+  contactForm.appendChild(message);
 
   const menuImages = document.createElement('div');
   menuImages.classList.add('menuImages');
@@ -74,8 +56,8 @@ const contact = () => {
   }
 
 
-  menuContent.appendChild(menuItems);
-  contactWrapper.appendChild(menuContent);
+  contactContent.appendChild(contactForm);
+  contactWrapper.appendChild(contactContent);
   contactWrapper.appendChild(menuImages);
 
   mainContainer.appendChild(contactWrapper);

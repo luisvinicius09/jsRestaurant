@@ -1,7 +1,8 @@
 import Header from '../js/header';
 import Home from '../js/homepage'
 import Menu from '../js/menu';
-import Contact from '../js/contact'
+import Contact from '../js/contact';
+import Footer from '../js/footer';
 
 const content = document.querySelector('#content');
 const mainContainer = document.createElement('div');
@@ -13,6 +14,7 @@ Header();
 Home();
 Menu();
 Contact();
+Footer();
 
 const wrapper = document.querySelector('.wrapper');
 const menuWrapper = document.querySelector('.menuWrapper');
